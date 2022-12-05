@@ -11,10 +11,11 @@ body
     display: grid;
     place-content: center;   
     min-height: 100vh; 
-    background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-top.svg);
-    background-repeat: no-repeat,no-repeat;
-    background-size: contain,contain;
-    background-position: bottom ,top;
+    min-width: 600px;
+    background-image: url(images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: top left;
 
 }
 span
